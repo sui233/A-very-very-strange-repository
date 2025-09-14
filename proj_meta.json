@@ -1,0 +1,27 @@
+{
+    "Project": "<Project_name>", 
+    "Approach": "MAS-PAIso-seq(2)",
+    "Description": "<Project_description>",  
+
+    "AdapterBC": {
+        "BC1": "TGCTATCTGAGATACT", 
+        "BC2": "GAGTCTCGATATACTA", 
+        "BC3": "ACGTGCTCTATAGAGA",
+        "BC4": "TATCAGCACGACATGC", 
+        "BC5": "GCTCTCACGATATCAG", 
+        "BC6": "TATATGCTCTGTGTGA", 
+        "BC7": "ATGATGTGCTACATCT", 
+        "BC11": "GCGCACGCACTACAGA", 
+        "BC12": "ACACTGACGTCGCGAC", 
+        "BC13": "CGTCTATATACGTATA", 
+        "BC14": "ATAGAGACTCAGAGCT", 
+        "BC15": "TAGATGCGAGAGTAGA"
+    },
+    "Adapter3GeneralSeq": "GTACTCTGCGTTGATACCACTGCTT", 
+
+    "UsedAdapter": ["BC<x>", "BC<y>"], 
+    "Adapter2Sample": {
+        "BC<x>": "<sample_ID_x>", 
+        "BC<y>": "<sample_ID_y>"
+    }
+}
